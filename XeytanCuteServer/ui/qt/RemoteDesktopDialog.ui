@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RemoteDesktopDialog</class>
+ <widget class="QDialog" name="RemoteDesktopDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>940</width>
+    <height>602</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>RemoteDesktopDialog</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <item>
+    <layout class="QHBoxLayout" name="mainLayout">
+     <item>
+      <layout class="QVBoxLayout" name="configureLayout">
+       <item>
+        <layout class="QFormLayout" name="formLayout">
+         <property name="horizontalSpacing">
+          <number>6</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>5</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="lblAvailableDisplays">
+           <property name="text">
+            <string>Available displays</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBoxDisplays"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QPushButton" name="btnStart">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Start</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btnStop">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+           <property name="text">
+            <string>Stop</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QLabel" name="lblPixmapImage">
+       <property name="text">
+        <string>Image capture will appear here ...</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btnStart</sender>
+   <signal>clicked()</signal>
+   <receiver>RemoteDesktopDialog</receiver>
+   <slot>btnStartClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>101</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>208</x>
+     <y>-12</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnStop</sender>
+   <signal>clicked()</signal>
+   <receiver>RemoteDesktopDialog</receiver>
+   <slot>btnStopClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>381</x>
+     <y>442</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>426</x>
+     <y>-17</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btnStartClicked()</slot>
+  <slot>btnStopClicked()</slot>
+ </slots>
+</ui>

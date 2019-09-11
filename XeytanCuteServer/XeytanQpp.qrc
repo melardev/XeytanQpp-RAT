@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resources/icons/1input-keyboard.ico</file>
+        <file>resources/icons/Cancel-32.png</file>
+        <file>resources/icons/Chat_open.png</file>
+        <file>resources/icons/cmd.bmp</file>
+        <file>resources/icons/download-32.png</file>
+        <file>resources/icons/gnome-terminal-32.png</file>
+        <file>resources/icons/Keyboard-32.png</file>
+        <file>resources/icons/Monitor-16 close.png</file>
+        <file>resources/icons/Monitor-16.png</file>
+        <file>resources/icons/Server Filled-32.png</file>
+        <file>resources/icons/uninstall-32.png</file>
+        <file>resources/icons/upload-32.png</file>
+        <file>resources/icons/vector_keyboard.ico</file>
+        <file>resources/icons/Webcam-16.png</file>
+        <file>resources/icons/Webcam-16close.png</file>
+    </qresource>
+</RCC>

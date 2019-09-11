@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="errors\AppException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="models\Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\ClientContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\ui\GuiEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\GuiMediator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\MainGui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\ui\MainGuiEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\NetClientService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\NetEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\NetServerService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\RemoteClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="services\Reporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\ClientNetEvent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\ProcessListClientEvent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\Packet.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketCameraConfigResponse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketCameraRequest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketConnection.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketDesktopConfigResponse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketDesktopRequest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketDesktopResponse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketLoginRequest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketLoginResponse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketMediaConfigRequest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketMediaRequest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketMediaResponse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketPresentation.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketProcessRequest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketProcessResponse.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\BaseQtWindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\ClientInfoDlg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\ProcessListDlg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\RemoteDesktopDialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\processors\IPacketProcessor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\processors\QDataStreamPacketProcessor.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\RemoteCameraDialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\CameraConfigClientNetEvent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\BaseAppDlg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\MediaClientNetEvent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\ui\MediaUiEvent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketCameraError.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\ReverseShellDlg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketShell.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="shared\net\packets\PacketChat.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\qt\ChatDialog.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XeytanQpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\RemoteShellNetClientEvent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\DesktopConfigClientNetEvent.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="concurrent\events\net\ClientNetEventExtendedInfo.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="errors\AppException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="models\Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\ClientContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\ui\GuiEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="ui\qt\GuiMediator.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="services\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="ui\qt\MainGui.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="concurrent\events\ui\MainGuiEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="services\NetClientService.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="concurrent\events\net\NetEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="services\NetServerService.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="services\RemoteClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="services\Reporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\qt\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\ClientNetEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\ProcessListClientEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\Packet.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketCameraConfigResponse.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketCameraRequest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketConnection.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketDesktopConfigResponse.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketDesktopRequest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketDesktopResponse.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketLoginRequest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketLoginResponse.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketMediaConfigRequest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketMediaRequest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketMediaResponse.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketPresentation.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketProcessRequest.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketProcessResponse.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketType.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\ui_defs.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\processors\IPacketProcessor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\processors\QDataStreamPacketProcessor.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\CameraConfigClientNetEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui\qt\BaseAppDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\MediaClientNetEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\media\media_defs.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\ui\MediaUiEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketCameraError.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketShell.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\packet_defs.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\event_defs.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\action_defs.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\net\packets\PacketChat.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\ChatNetClientEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\RemoteShellNetClientEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\DesktopConfigClientNetEvent.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="concurrent\events\net\ClientNetEventExtendedInfo.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="shared\models\process.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="ui\qt\ClientInfoDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\qt\MainGui.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\qt\ProcessListDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\qt\RemoteDesktopDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\qt\RemoteCameraDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\qt\ReverseShellDlg.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="ui\qt\ChatDialog.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="XeytanQpp.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CuteXeytanServer.pri" />
+    <None Include="CuteXeytanServer.pro" />
+    <None Include="README.md" />
+    <None Include="not_ready\notes.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="ui\qt\BaseQtWindow.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\qt\ClientInfoDlg.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\qt\ProcessListDlg.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\qt\RemoteDesktopDialog.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\qt\RemoteCameraDialog.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\qt\ReverseShellDlg.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="ui\qt\ChatDialog.h">
+      <Filter>Generated Files</Filter>
+    </QtMoc>
+    <QtMoc Include="XeytanQpp.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="XeytanQpp.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>
